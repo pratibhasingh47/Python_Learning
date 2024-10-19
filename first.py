@@ -26,6 +26,8 @@ print(type(price))
 
 # a = None
 # print(a)
+print(not True)
+print(not False) 
 
 a = 100
 b = 200
@@ -44,4 +46,7 @@ price = float(input("Enter the price: "))
 print("My name is", name, "and my age is", age, "and the price is", price);
 
 
+x,y = 10,"20"
+z = x + float(y)
+print(z)
 

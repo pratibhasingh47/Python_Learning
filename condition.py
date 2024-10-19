@@ -1,4 +1,4 @@
-"""
+# """
 age = int(input("Enter your age : "))
 
 if age >= 18:
@@ -34,7 +34,7 @@ elif marks >= 60 and marks < 70:
 else:
     print("Grade F . You have failed")
 
-    """
+    # """
 
 
 food = input("Enter the food item: ")
@@ -59,4 +59,14 @@ t = float(input("Enter the time: "))
 r = float(input("Enter the rate: "))
 si = p*t*r/100
 print("Simple Interest is", si)
+
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+c = float(input("Enter the third number: "))
+if a > b and a > c:
+    print("A is the greatest number")
+elif b > a and b > c:
+    print("B is the greatest number")
+else:
+    print("C is the greatest number")
 

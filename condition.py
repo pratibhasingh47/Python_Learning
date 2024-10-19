@@ -1,3 +1,4 @@
+"""
 age = int(input("Enter your age : "))
 
 if age >= 18:
@@ -33,4 +34,29 @@ elif marks >= 60 and marks < 70:
 else:
     print("Grade F . You have failed")
 
-    
+    """
+
+
+food = input("Enter the food item: ")
+eat = "Yes" if food == "Pizza" else "No"
+print(eat)
+
+
+sal = float(input("Enter your salary: "))
+tax = sal*(0.1,0.2) [sal >= 50000]
+print(tax)
+
+
+#Best Practice
+#Single instructions
+#one instruction per task
+#short & meaningful names
+#use appropriate comments
+#avoid complex expressions
+
+p = float(input("Enter the principal amount: "))
+t = float(input("Enter the time: "))
+r = float(input("Enter the rate: "))
+si = p*t*r/100
+print("Simple Interest is", si)
+

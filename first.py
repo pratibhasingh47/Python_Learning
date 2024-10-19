@@ -4,6 +4,9 @@ print(23)
 print(23.5)
 print(10+20)
 print(10-20)
+print(10*20)
+print(100/20)
+print(5**2)
 
 name = "Pratibha"
 print(name)

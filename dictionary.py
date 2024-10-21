@@ -38,3 +38,23 @@ print(students.items())
 print(students.get("name"))
 print(info.get("surname"))
 print(students.get("surname", "Not found"))
+
+
+
+marks = {}
+x = int(input("Enter marks of Physics"))
+marks.update({"Physics": x})
+
+y = int(input("Enter marks of Chemistry"))
+marks.update({"Chemistry": y})
+
+z = int(input("Enter marks of Maths"))
+marks.update({"Maths": z})
+
+print(marks)
+
+values = {
+    ("float",9.0),
+    ("int",9)
+}
+print(values)

@@ -15,3 +15,30 @@ print(students[0])
 print(students[1])
 print(students[2])
 print(students[3])
+students[0] = "Jane"
+
+print(students)
+
+print(students)
+
+print(students[1:3])
+print(students[1:])
+print(students[:3])
+
+students.append("Smith")
+students.insert(2, "Doe")
+print(students)
+students.remove("Doe")
+students.pop()
+print(students)
+
+
+list1 = [1, 4, 3,10,81,3, 7, 8, 9, 10]
+print(list1)
+list1.sort()
+print(list1)
+list1.sort(reverse=True)
+print(list1)
+# print(list1.sort()) #None
+
+
